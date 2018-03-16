@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+  <title>Molly Szymanski</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600|Fjalla+One" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <script type="text/javascript" src="js/contactform.js"></script> 
+</head>
+<body class="home">
+	<header>
+		<div class="jumbotron">
+      <h1>Hi, I'm Molly Szymanski.</h1>
+      <p>Here's how you can contact me...</p>
+    </div>
+    <nav>
+      <a href="index.html" tabindex="0">Home</a>
+      <a href="about.html" tabindex="0">About Me</a>
+      <a href="projects.html" tabindex="0">Projects</a>
+      <a href="resume.html" tabindex="0">Resume</a>
+      <a class="active" href="contact.html" tabindex="0">Contact</a>
+    </nav>
+  </header>
+<div class="general">
+  <div class="section">
+      <h2>Contact Me</h2>
+  </div>
+  <div class="section boxes">
+    <div>
+    <form action="mailto:molly@molly.com" onsubmit="return checkForm()">
+    <fieldset>
+    <legend>Contact Form</legend>
+    <p class="errormsg" id="titleerrormsg">There are errors in your form</p>
+    <p>
+      <label for="fullname">Your Name:</label><br>
+      <input type="text" name="fullname" id="fullname">
+    </p>
+    <p class="errormsg" id="nameerrormsg">Please enter your name above</p>
+    <p>
+      <label for="yremail">Your Email: </label><br>
+        <input id="yremail" type="text" name="yremail">
+    </p>
+    <p class="errormsg" id="emailerrormsg">Please enter your email address</p>
+    <p>How did you find my website?<br>
+        <input type="radio" value="referral" name="referral" id="optreferral">
+        <label for="optreferral">Personal referral</label><br>
+        <input type="radio" value="linkedin" name="linkedin" id="optlinked">
+        <label for="optlinked">LinkedIn</label><br>
+        <input type="radio" value="other" name="other" id="optother">
+        <label for="optother">Other</label><br>
+    </p>
+    <p class="errormsg" id="optionerrormsg">Please select one option</p>
+    <p>
+     <label for="message"> Enter your message:</label><br>
+    <textarea name="message" id="message"></textarea>
+  </p>
+  <p class="errormsg" id="msgerrormsg">Please enter a message.</p>
+  </fieldset>
+  <input type="submit" name="submit" value="Send Message"> 
+</form>
+    </div>
+  </div>
+</div>
+	<footer>
+    <div class="general">
+      <div class="section">
+      </div>
+    <div class="section boxes">   
+      <div class= "center big">
+      <p class = "small">Designed by Molly Szymanski. 2017.</p>
+      <p class = "small">
+        <a href="https://www.linkedin.com/in/molly-szymanski-8b959114a/" tabindex="0">
+          <img src="img/linkedin.png" alt="linkedin"></a>
+      <a href="https://www.instagram.com" tabindex="0"><img src="img/instagram.png" alt="instagram"></a>
+      </p>
+      </div>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
