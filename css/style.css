@@ -23,10 +23,6 @@ h2.welcome {
   letter-spacing: 10.0px;
   }
 
-h2 {
-  text-transform: uppercase;
-  font-size: 2em;
-}
 .nav, .boxes {
   display: -webkit-flex;
   display: flex;
@@ -35,14 +31,14 @@ h2 {
 }
 
 body {
-  font-size: 1.3em; 
+  font-size: 1.1em; 
   font-weight: 400;
-  font-family: 'quicksand', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   color: #222;
 }
 
 .home {
-    background-image: url("../img/dust.png");
+    background-image: url("../img/naturalwhite.png");
     background-position: center;
     background-repeat: repeat;
     background-position:center;
@@ -177,10 +173,6 @@ p.errormsg
   text-transform: uppercase;
   color:red;
 }
-ul {
-  list-style-type:square;
-  line-height: 2em;
-}
 
 
 /*.jumbotron code adapted from BootStrap*/
@@ -190,7 +182,7 @@ ul {
   padding-bottom:30px;
   padding-left: 30px;
   margin-bottom:30px;
-  color:#fcfcfc;
+  color:#b7b3a1;
   background-color:#22333b;
   }
 .jumbotron .h1,.jumbotron h1{
@@ -256,12 +248,8 @@ ul {
   .jumbotron p{
     font-size: 1.8em;
   }
-.projects, .about, .resumes{
-  margin-left: 4em;
-  margin-right: 4em;
-}
 
-}
+  }
 @media screen and (min-width:1020px)
 {div.linked:hover{
   background-color: #b7b3a1;
