@@ -4,6 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-size: 80%;
+  padding: 2em;
 }
 
 a {
@@ -12,16 +13,35 @@ a {
 }
 
 h1 {
-  font-size: 2.2em;
-  margin: 0.67em 0;
-  font-family: "Fjalla One", sans-serif;
-  letter-spacing: 2.0px;
-}
-
-h2.welcome {
   font-size: 2.8em;
-  letter-spacing: 10.0px;
+  margin: 0.67em 0;
+  letter-spacing: 2.0px;
+  color: white;
+}
+.jumbotron{
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom:30px;
+  /*color:#b7b3a1;*/
+  background-color: #222;
+  /*background-color:#22333b;*/
+  border-radius: 5px;
+  color: white;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 200;
+  /*text-align: center;*/
   }
+
+.jumbotron .h1,.jumbotron h1{
+    font-size:2 em;
+      }
+
+.jumbotron span{
+    /*margin-bottom:15px;*/
+    font-size:1.5em;
+}
 
 .nav, .boxes {
   display: -webkit-flex;
@@ -33,12 +53,12 @@ h2.welcome {
 body {
   font-size: 1.1em; 
   font-weight: 400;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #222;
 }
 
 .home {
-    background-image: url("../img/naturalwhite.png");
+    background-image: url("../img/notebook.png");
     background-position: center;
     background-repeat: repeat;
     background-position:center;
@@ -85,12 +105,19 @@ nav a.active {
   cursor: default;
 }
 
-img.fitted {
-    display:block;
-    margin:auto;
+img.portrait {
+  display: block;
+    margin: auto;
     max-width: 100%;
     display: flex;
-    height: auto; 
+
+}
+img.fitted {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    height: 100px;
   }
 
 img {
@@ -101,14 +128,14 @@ img {
   flex: 1 1 250px;
   margin: 10px;
   border-radius: 5px;
-  padding: 20px 20px 20px 20px;
+  padding: 25px 25px 25px 25px;
   background-color: rgba(0,0,0,.1);
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: column;
   flex-flow: column;
   font-family: inherit;
-  line-height: 30px;
+  line-height: 20px;
   
 }
 
@@ -116,10 +143,21 @@ img {
   margin-top: auto;
 }
 
-.more {
-  color: #064789;
+.more a {
+  padding: 8px 2%;
+  color: #555;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: .1rem;
   text-transform: uppercase;
-}
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  margin: 2px;
+  border-radius: 4px;
+  border: 3px solid #bbb;
+  }
 
 div.resume{
   font-size: .9em;
@@ -140,11 +178,11 @@ div.big {
   
 }
 
-div.image {
+/*div.image {
   background-color: rgba(122, 158, 159, .5);
   padding-top: 30px;
   padding-bottom: 30px
-}
+}*/
 
 div.bold{
   color: #222;
@@ -155,13 +193,28 @@ div.bold{
 
 div.caps {
   text-transform: uppercase;
-  font-size: 2.0em;
+  font-size: 1.8em;
 }
 
 footer.center {
   text-align: center;
   vertical-align: middle;
 }
+
+p.about {
+  font-size: 1.8em;
+  line-height: 2em;
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+
+}
+
+p.about-long{
+  line-height: 1.9em;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
 
 p.small {
   margin: .5em;
@@ -173,36 +226,61 @@ p.errormsg
   text-transform: uppercase;
   color:red;
 }
+p.projecttitle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  line-height: 1.5em;
 
-
-/*.jumbotron code adapted from BootStrap*/
-
-.jumbotron{
-  padding-top:30px;
-  padding-bottom:30px;
-  padding-left: 30px;
-  margin-bottom:30px;
-  color:#b7b3a1;
-  background-color:#22333b;
-  }
-.jumbotron .h1,.jumbotron h1{
-    color:inherit;
 }
-.jumbotron p{
-    margin-bottom:15px;
-    font-size:1.2em;
-    font-weight:200;
+
+span.italic {
+  font-style: italic;
 }
-  .jumbotron hr{
+
+div.welcome {
+  background-image: url("../img/book13.png");
+}
+
+p.greeting{
+  font-size: 3.5em;
+  color: #222;
+  letter-spacing: 7.0px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p.greeting span{
+  background-color: rgba(255, 255, 255, .9);
+  line-height: 1.5em;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/*.jumbotron hr{
     border-top-color:#d5d5d5;
 }
-  .container .jumbotron,.container-fluid .jumbotron{
+.container .jumbotron,.container-fluid .jumbotron{
     padding-right:15px;
     padding-left:15px;
     border-radius:6px;
 }
 .jumbotron .container{
     max-width:100%;
+}*/
+
+
+.general {
+margin-top: 45px;
+}
+
+#footer {
+  margin-top: 20px;
+}
+.icon {
+  height: 30px;
+  margin: 5px;
 }
 
 @media (min-width: 500px) {
@@ -235,26 +313,58 @@ p.errormsg
             flex: 0 0 130px;
   }
   .jumbotron{
-    padding-top:48px;
-    padding-bottom:48px;
+    padding-bottom:30px;
+    padding-left: 50px;
+    padding-top: 1px;
       }
-  .container .jumbotron,.container-fluid .jumbotron{
-      padding-right:60px;
-      padding-left:60px;
-    }
-  .jumbotron .h1,.jumbotron h1{
-        font-size:4.1em;
-      }
-  .jumbotron p{
-    font-size: 1.8em;
+  h2.welcome {
+  font-size: 2.8em;
+  letter-spacing: 10.0px;
   }
+/*  .container .jumbotron,.container-fluid .jumbotron{
+      padding-right:30px;
+      padding-left:30px;
+    }*/
+  .jumbotron .h1,.jumbotron h1{
+        font-size:4.8em;
+      }
+  .jumbotron span{
+    font-size: 1.9em;
+  }
+  div.caps {
+  text-transform: uppercase;
+  font-size: 2.0em;
+}
+span.italic {
+  font-style: italic;
+  font-size: .8em;
+}
+p.projecttitle {
+  font-size: 1.25em;
+  }
+.more a:hover{
+  background-color: #b7b3a1;
+}
+p.about {
+  font-size: 2.3em;
+  line-height: 2.5em;
+}
+
+img.landing {
+   display: block;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+}
 
   }
 @media screen and (min-width:1020px)
-{div.linked:hover{
-  background-color: #b7b3a1;
-  opacity: 1.0;
-}
-div.gallery:hover{
+{
+/*div.gallery:hover{
   -webkit-filter: grayscale(100%);
-}}
+}*/
+div.empty {
+  display: flex;
+}
+
+}
