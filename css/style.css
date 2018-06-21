@@ -141,13 +141,14 @@ img {
 
 .boxes .more {
   margin-top: auto;
+  text-align: center;
 }
 
 .more a {
   padding: 8px 2%;
   color: #555;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -156,7 +157,8 @@ img {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
   margin: 2px;
   border-radius: 4px;
-  border: 3px solid #bbb;
+  border: 2px solid #bbb;
+  font-size: 1em;
   }
 
 div.resume{
@@ -342,6 +344,7 @@ span.italic {
 p.projecttitle {
   font-size: 1.25em;
   }
+
 .more a:hover{
   background-color: #b7b3a1;
 }
