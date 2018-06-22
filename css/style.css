@@ -254,8 +254,9 @@ img {
   min-width: 0;*/
 }
 
-div.portrait {
-max-width: 100%;
+img.portrait {
+  display: flex;
+  max-width: 100%;
 }
 
 
