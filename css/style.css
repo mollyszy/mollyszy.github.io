@@ -256,9 +256,10 @@ img {
 
 img.portrait {
   display: flex;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   object-fit: contain;
+  margin: auto;
 }
 
 
