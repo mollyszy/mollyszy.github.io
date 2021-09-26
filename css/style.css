@@ -29,7 +29,7 @@ h1 {
   /*background-color:#22333b;*/
   border-radius: 5px;
   color: white;
-  font-family: "Amatic SC", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-weight: 200;
   /*text-align: center;*/
   }
@@ -183,10 +183,11 @@ footer.center {
 }
 
 p.about {
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 2em;
   text-align: center;
-  font-family: "Amatic SC", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 300;
 
 }
 
